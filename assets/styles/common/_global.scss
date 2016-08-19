@@ -1,1 +1,32 @@
+body {
 
+}
+
+.gray-wrap {
+  background-color:$background-gray;
+  border:1px solid darken($background-gray, 10%);
+  padding:15px;;
+}
+
+.admin-bar {
+
+  header.banner {
+    top: 32px;
+  }
+
+  main, .sidebar {
+    margin-top:25px;
+  }
+
+}
+
+main, .sidebar {
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.adsbygoogle {
+  margin:15px 0px;
+}

@@ -5,8 +5,11 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import 'https://fonts.googleapis.com/css?family=Abel|Baloo+Da';
+
 @import "common/global";
 @import "components/buttons";
+@import "components/typography";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
