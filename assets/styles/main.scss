@@ -1,8 +1,10 @@
 @import "common/variables";
 
+
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/sass-mq/_mq.scss";
 // endbower
 
 @import 'https://fonts.googleapis.com/css?family=Abel|Baloo+Da';
@@ -10,6 +12,7 @@
 @import "common/global";
 @import "components/buttons";
 @import "components/typography";
+@import "components/tags";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
@@ -17,6 +20,7 @@
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
+@import "layouts/front-page";
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";

@@ -1,0 +1,25 @@
+.home, .blog, .archive {
+
+  article {
+    margin:15px 0px;
+    min-height: 200px;
+    background-size:cover;
+    position:relative;
+
+    h3 {
+      position: absolute;
+      bottom:10px;
+      left:15px;
+      background-color: $brand-primary;
+      font-size:18px;
+      padding:4px 8px;
+      border-radius: 2px;
+      a {
+        color:#fff;
+      }
+
+    }
+  }
+
+
+}

@@ -1,0 +1,12 @@
+.page-nav, .gallery-nav {
+  padding:10px;
+  text-align: center;
+  background-color: $background-gray;
+  border:1px solid darken($background-gray, 10%);
+
+  p {
+    margin:0px;
+    font-size:18px;
+  }
+
+}

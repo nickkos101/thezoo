@@ -16,7 +16,7 @@ $sage_includes = [
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
   'lib/customizer.php', // Theme customizer
-  'lib/querymod.php', // Modifies Queries for custom page elements.
+  'lib/acf.php', // Adds Advanced Custom Fields to the Theme
   'lib/post-types/animals.php' // Enables the Animals Custom Post Type - Contains Related Functionality.
 ];
 
