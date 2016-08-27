@@ -28,6 +28,17 @@ h6, .h6 {
   line-height: 1.0;
 }
 
+.line-bg {
+  background-image:url('../images/pixel.png');
+  background-repeat: repeat-x;
+  background-position: 50%;
+
+  span {
+    background-color:#fff;
+    padding-right:15px;
+  }
+}
+
 body {
   font-family:$primary-font;
 }

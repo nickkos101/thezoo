@@ -2,7 +2,7 @@
 
   <div class="row">
     <div class="col-md-12">
-      <h2>Latest Posts</h2>
+      <h2 class="line-bg"><span>Latest Posts</span></h2>
     </div>
 
     <?php
@@ -28,7 +28,7 @@
 
   <div class="row">
     <div class="col-md-12">
-      <h2>Animals</h2>
+      <h2 class="line-bg"><span>Animals</span></h2>
     </div>
 
     <?php
