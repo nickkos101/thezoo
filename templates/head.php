@@ -13,5 +13,11 @@
   ga('send', 'pageview');
 
   </script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9390819141393668",
+    enable_page_level_ads: true
+  });
+</script>
   <?php wp_head(); ?>
 </head>

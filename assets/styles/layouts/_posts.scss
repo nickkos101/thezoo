@@ -10,3 +10,46 @@
   }
 
 }
+
+.share-bar {
+  text-align: center;
+  .fb-share-button {
+    width:100%;
+    padding:10px 15px;
+    background-color: $facebook-blue;
+    color:#fff;
+
+    span {
+      margin-right:15px;
+    }
+
+    a {
+      color:#fff;
+    }
+
+    &:hover {
+      background-color:#365899;
+    }
+  }
+}
+
+.related-post {
+
+  .ft-img {
+    position: relative;
+    text-align: center;
+    img {
+      width:100%;
+    }
+  }
+
+  .play-button {
+    position: absolute;
+    top:50%;
+    max-width: 30%;
+    margin-left:-15%;
+    margin-top:-15%;
+    opacity:0.90;
+  }
+
+}

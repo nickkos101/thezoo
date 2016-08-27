@@ -1,12 +1,13 @@
-<?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
+<article <?php post_class(); ?>>
 
-    <header>
-      <?php get_template_part('/templates/page', 'header'); ?>
-    </header>
+  <header>
+    <?php get_template_part('/templates/page', 'header'); ?>
+  </header>
 
-    <div class="container">
-      <div class="row">
+  <div class="container">
+    <div class="row">
+
+      <?php while (have_posts()) : the_post(); ?>
 
         <div class="col-md-8">
 
@@ -41,7 +42,14 @@
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
           </div>
-          <!-- </div> -->
+
+          <div class="share-bar">
+            <a href="#" onclick="share_fb('<?php the_permalink(); ?>');return false;">
+              <div class="fb-share-button btn btn-block"><span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share on Facebook</div>
+            </a>
+          </div>
+
+          <?php related_posts(); ?>
 
           <?php comments_template('/templates/comments.php'); ?>
         </div>
@@ -50,8 +58,10 @@
           <?php get_template_part('/templates/sidebar'); ?>
         </div>
 
-      </div>
-    </div>
+      <?php endwhile; ?>
 
-  </article>
-<?php endwhile; ?>
+    </div>
+  </div>
+
+
+</article>

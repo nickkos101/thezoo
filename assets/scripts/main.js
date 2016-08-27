@@ -1,14 +1,14 @@
 /* ========================================================================
- * DOM-based Routing
- * Based on http://goo.gl/EUTi53 by Paul Irish
- *
- * Only fires on body classes that match. If a body class contains a dash,
- * replace the dash with an underscore when adding it to the object below.
- *
- * .noConflict()
- * The routing is enclosed within an anonymous function so that you can
- * always reference jQuery with $, even when in .noConflict() mode.
- * ======================================================================== */
+* DOM-based Routing
+* Based on http://goo.gl/EUTi53 by Paul Irish
+*
+* Only fires on body classes that match. If a body class contains a dash,
+* replace the dash with an underscore when adding it to the object below.
+*
+* .noConflict()
+* The routing is enclosed within an anonymous function so that you can
+* always reference jQuery with $, even when in .noConflict() mode.
+* ======================================================================== */
 
 (function($) {
 
@@ -18,7 +18,7 @@
     // All pages
     'common': {
       init: function() {
-        // JavaScript to be fired on all pages
+
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -75,3 +75,7 @@
   $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
+
+function share_fb(url) {
+  window.open('https://www.facebook.com/sharer/sharer.php?u='+url,'facebook-share-dialog',"width=626,height=436");
+}
